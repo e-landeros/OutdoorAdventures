@@ -42,7 +42,7 @@
         color:$color-white;
         
         &::after{
-            background-color: $color-white;
+            background-color: $color-primary;
         }
     }
     &::after{
@@ -61,7 +61,7 @@
     
     
     &--animated {
-        animation:moveInBottom .5s ease-out .74s;
+        animation:moveInBottom .5s ease-out .75s;
         /* auto apply animation of 0% before animation starts */
         animation-fill-mode: backwards;
     }
