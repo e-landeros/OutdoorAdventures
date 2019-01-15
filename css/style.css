@@ -483,10 +483,18 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 75%;
-    height: 50rem;
     background-color: #fff;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 3px; }
+  .popup__left {
+    width: 33.3333333%;
+    float: left; }
+  .popup__right {
+    width: 66.6666667%;
+    float: right; }
+  .popup__img {
+    display: block;
+    width: 100%; }
 
 .row {
   max-width: 114rem;
